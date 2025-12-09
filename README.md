@@ -30,7 +30,6 @@ This ETL pipeline performs:
 ##  Project Structure
 
 ETL_NASA/
-│
 ├── Scripts/
 │   ├── extract_nasa.py        # Extracts data from NASA APOD API
 │   ├── transform_nasa.py      # Transforms raw JSON into CSV
@@ -43,7 +42,6 @@ ETL_NASA/
 ├── .env                       # Environment variables (ignored)
 ├── .gitignore
 └── README.md
-
 
 ##  Database Schema
 
@@ -63,8 +61,8 @@ CREATE TABLE nasa_apod (
 
 1. Clone the repository
 
-   git clone https://github.com/Anusreereddysama/NASA_ETL_PROJECT
-   cd ETL_NASA
+   - git clone https://github.com/Anusreereddysama/NASA_ETL_PROJECT
+   - cd ETL_NASA
 
 2. Create & activate virtual environment (optional)
 
