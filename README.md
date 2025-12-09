@@ -29,17 +29,17 @@ This ETL pipeline performs:
 
 ##  Project Structure
 
-ETL_NASA/
-├── Scripts/
-│   ├── extract_nasa.py       # Extracts data from NASA APOD API
-│   ├── transform_nasa.py     # Transforms raw JSON into CSV
-│   └── load_nasa.py          # Loads cleaned data into Supabase
-├── data/
-│   ├── raw/                  # Raw API responses (not committed)
-│   └── staged/               # Cleaned CSV files (not committed)
-├── .env                      # Environment variables (ignored)
-├── .gitignore
-└── README.md
+   ETL_NASA/
+   ├── Scripts/
+   │   ├── extract_nasa.py       # Extracts data from NASA APOD API
+   │   ├── transform_nasa.py     # Transforms raw JSON into CSV
+   │   └── load_nasa.py          # Loads cleaned data into Supabase
+   ├── data/
+   │   ├── raw/                  # Raw API responses (not committed)
+   │   └── staged/               # Cleaned CSV files (not committed)
+   ├── .env                      # Environment variables (ignored)
+   ├── .gitignore
+   └── README.md
 
 ##  Database Schema
 
