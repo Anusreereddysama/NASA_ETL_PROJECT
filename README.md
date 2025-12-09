@@ -75,36 +75,36 @@ CREATE TABLE nasa_apod (
 
    pip install -r requirements.txt
 
-Required libraries:
-- pandas
-- requests
-- supabase
-- python-dotenv
+   Required libraries:
+   - pandas
+   - requests
+   - supabase
+   - python-dotenv
 
 4. Environment configuration
 
-Create a `.env` file with:
+   Create a `.env` file with:
 
-SUPABASE_URL=your_supabase_url  
-SUPABASE_KEY=your_supabase_anon_key  
-NASA_API_KEY=your_nasa_api_key  
+   SUPABASE_URL=your_supabase_url  
+   SUPABASE_KEY=your_supabase_anon_key  
+   NASA_API_KEY=your_nasa_api_key  
 
 
 5. Run the pipeline
 
-python Scripts/extract_nasa.py  
-python Scripts/transform_nasa.py  
-python Scripts/load_nasa.py  
+   python Scripts/extract_nasa.py  
+   python Scripts/transform_nasa.py  
+   python Scripts/load_nasa.py  
 
 ---
 
 ##  Key Learnings
 
-- Handling real-world, inconsistent API data
-- Schema-aligned database inserts
-- Batch loading for efficient data ingestion
-- Building production-style ETL pipelines
-- Using cloud databases with Python
+   - Handling real-world, inconsistent API data
+   - Schema-aligned database inserts
+   - Batch loading for efficient data ingestion
+   - Building production-style ETL pipelines
+   - Using cloud databases with Python
 
 ---
 
